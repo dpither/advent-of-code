@@ -22,7 +22,7 @@ def solve_silver(s: str):
     print(f"[SILVER] {largest}")
 
 
-# COLUMN,ROW TILE COORDS
+# NOT GENERAL SOLUTION, NEED TO CHECK CORNERS ARE INSIDE TOO
 def solve_gold(s: str):
     red_tiles = parse_input(s)
     n = len(red_tiles)
